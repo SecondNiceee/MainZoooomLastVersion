@@ -2,8 +2,8 @@
     display: none;
  }
  .fileImage{
-    width: calc(51px * 0.32);
-    height: calc(51px * 0.32);
+    width: calc(65px * 0.32);
+
     transform: translateY(2px);
  }
  .labelImages{
