@@ -29,6 +29,7 @@
     letter-spacing: 0%;
     text-align: center;
     margin: auto;
+    width: 100%;
     left: 50%;
     bottom: 50%;
     transform: translateX(-50%) translateY(-50%);

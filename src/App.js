@@ -44,8 +44,8 @@ function App() {
   //   /* код */
   // });
       const [taskInformation, setTaskInformation] = useState({
-        category: { name : 'дизайн1',  value : 'design1' },
-        subCategory: "выбрать",
+        category: { name : 'дизайн',  value : 'design1' },
+        subCategory: "Выбрать",
         taskName: "",
         taskDescription: "",
         photos: "",

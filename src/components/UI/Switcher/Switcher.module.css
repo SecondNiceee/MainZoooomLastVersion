@@ -1,12 +1,15 @@
 .Switcher{
     width: 50.35px;
     height: 30.6px;
-    border-radius: calc(46px* 0.32);
-    border-radius: calc(46.5px* 0.32);
+    border-radius: calc(46px* 0.2);
+    border-radius: calc(46.5px* 0.2);
     background: rgb(99, 98, 103);
     position: relative;
     transition: 0.32s;
     cursor: pointer;
+    width: calc(151px * 0.2) ;
+    height: calc(93px * 0.2)  ;
+    
 }
 .Switcher.active{
     background: rgb(45, 200, 83); 
@@ -15,17 +18,17 @@
     
     position: absolute;
     transition: 0.3s;
-    width: 26.65px;
-    height: 26.65px;
+    width: calc(81px * 0.2);
+    height: calc(81px * 0.2)  ;
     border-radius: 50%;
     background: white;
-    left: 2px;
-    bottom: 2px;
+    left: calc(6px * 0.2);
+    bottom:  calc(6px * 0.2);
 
 }
 .circle.active{
     left: unset;
-    left: calc(100% - 29px);
+    left: calc(100% - 87px * 0.2) ;
 
 }
 
