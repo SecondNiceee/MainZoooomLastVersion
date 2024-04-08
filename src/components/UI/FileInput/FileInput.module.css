@@ -38,7 +38,7 @@
 
  }
 .FileInput{
-   padding: calc(30px* .32) calc(30px* 0.32);
+   padding: calc(8px) calc(8px);
     border-radius:calc(28px * 0.32) ;
     background: rgb(32, 48, 63);
     cursor: pointer;
