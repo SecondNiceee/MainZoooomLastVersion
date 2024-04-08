@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.a8c3d717.css",
+    "main.css": "./static/css/main.b62908d7.css",
     "main.js": "./static/js/main.4180efd5.js",
     "static/media/sf-compact-rounded.ttf": "./static/media/sf-compact-rounded.5beab7105be2b1142b4b.ttf",
     "static/media/SF-Pro-Display-Semibold.otf": "./static/media/SF-Pro-Display-Semibold.037dc63930459813f575.otf",
@@ -20,11 +20,11 @@
     "static/media/UpDown.svg": "./static/media/UpDown.602fd0579eec9bf9d629c6c1c6531b83.svg",
     "static/media/linkArrow.svg": "./static/media/linkArrow.4020e5c688915ea551ea.svg",
     "static/media/upArr.svg": "./static/media/upArr.4020e5c688915ea551eab9f9a5c11931.svg",
-    "main.a8c3d717.css.map": "./static/css/main.a8c3d717.css.map",
+    "main.b62908d7.css.map": "./static/css/main.b62908d7.css.map",
     "main.4180efd5.js.map": "./static/js/main.4180efd5.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8c3d717.css",
+    "static/css/main.b62908d7.css",
     "static/js/main.4180efd5.js"
   ]
 }
