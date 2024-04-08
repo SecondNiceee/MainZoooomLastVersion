@@ -5,7 +5,7 @@ import "./css/Main.css";
 import "./css/Fonts.css";
 
 import AdCreatingTwo from './pages/ADCreatingTwo/AdCreatingTwo/AddCreatingTwo'
-
+import './css/style.css'
 
 import {
   BrowserRouter,
@@ -45,7 +45,7 @@ function App() {
   // });
       const [taskInformation, setTaskInformation] = useState({
         category: { name : 'дизайн1',  value : 'design1' },
-        subCategory: "дизайн сайтов и приложений",
+        subCategory: "выбрать",
         taskName: "",
         taskDescription: "",
         photos: "",

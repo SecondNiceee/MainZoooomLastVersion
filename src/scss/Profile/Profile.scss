@@ -1,0 +1,163 @@
+$width : 0.32;
+$height : 0.32;
+.profile__container{
+    display: flex;
+    flex-direction: column;
+    margin-top: calc(70px* $width);
+    .pofile__icon{
+        width: calc(282px * $width);
+        height: calc(282px * $width)
+    }
+    .urName{
+        color: rgb(255, 255, 255);
+        font-family: "SF Compact Rounded 500";
+        font-size: calc(70px * $width);
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .change{
+        color: rgb(218, 245, 254);
+        font-family: "SF Pro Display";
+        font-size: calc(44px * $width);
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0%;
+        text-align: right;
+    }
+    .profile__options{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .option__balance{
+            display: flex;
+            padding-left: calc(54px * $width);
+            padding-right: calc(48px*$width);
+            justify-content: space-between;
+
+    }
+    .option__left{
+        display: flex;
+        gap: calc(60px *$width);
+        p{
+            color: rgb(255, 255, 255);
+            font-family: "SF Pro Display 400";
+            font-size:  calc(50px * $width);
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 1%;
+            text-align: left;
+        }
+    }
+    .option__balance-block{
+        display: flex;
+    }
+    .tonPrice{
+        font-family: "SF Compact Rounded 500";
+        font-size: calc(50px * $width);
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1%;
+        text-align: right;
+        margin-right: 5px;
+    }
+    .Dymond{
+        width: calc(50px * $width);
+        height: calc(50px * $width);
+    }
+    .option__money{
+            display: flex;
+            gap: 3px;
+    }
+    .arrowRight{
+        width: calc(20px * $width);
+        height: calc(35px * $width);
+    }
+    .option{
+        align-items: center;
+    }
+    .profile__about-me{
+        display: flex;
+        flex-direction: column;
+        gap: calc(20px * $width);
+        p:nth-child(1){
+            color: rgb(255, 255, 255);
+            font-family: "SF Pro Display 600";
+            font-size: calc(62.16px * $width);
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+        p:nth-child(2){
+            color: rgb(218, 245, 254);
+            font-family: "SF Pro Display 400";
+            font-size: calc(50px * $width) ;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 1%;
+            text-align: left;
+        }
+    }
+    .profile__works{
+        display: flex;
+        flex-direction: column;
+        p:nth-child(1){
+            color: rgb(255, 255, 255);
+            font-family: "SF Pro Display 600";
+            font-size: calc(62.16 * $width) ;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: 0%;
+            text-align: left;
+            margin-bottom: calc(20px*$width);
+        }
+        p:nth-child(2){
+            color: rgb(218, 245, 254);
+            font-family: "SF Pro Display 400";
+            font-size: calc(50px * $width);
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 1%;
+            text-align: left;
+            margin-bottom: calc(5px*$width);
+        }
+        p:nth-child(3){
+            color: rgb(149, 151, 158);
+            font-family: "SF Pro Display";
+            font-size: calc(44px * $width) ;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+        .profile__veryfication{
+            display: flex;
+            gap: calc(36px * $width);
+            .veryfication{
+                color: rgb(255, 255, 255);
+                font-family: SF Pro Display;
+                font-size: 62.16px;
+                font-weight: 600;
+                line-height: 74px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+            .veryfication__block{
+                gap: calc(32px * $width);
+            }
+            .veryfication__image{
+                border-radius: calc(60px * $width);
+                background: rgb(61, 168, 248);
+            }
+            .veryfication__block-text{
+                display: flex;
+                flex-direction: column;
+                gap: calc(11px* $width);
+                
+            }
+        }
+    }
+}

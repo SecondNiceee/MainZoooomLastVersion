@@ -18,3 +18,18 @@
     gap: 6px;
     margin-top: 7px;
 }
+.anotherText{
+    /* Default text */
+    position: absolute;
+    color: rgb(149, 151, 158);
+    font-family: "SF Pro Display";
+    font-size: calc(44px* 0.32);
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: auto;
+    left: 50%;
+    bottom: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}

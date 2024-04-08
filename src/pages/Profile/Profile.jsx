@@ -4,49 +4,61 @@ const Profile = () => {
     return (
         <div className='profile__container'>
                 <img src="" className='profile__icon' alt="" />
-                <p className=''> Ваше имя </p>
-                <p>изменить</p>
+                <p className = 'urName' className=''> Ваше имя </p>
+                <p className='change'>изменить</p>
                 <div className="profrile__options">
                     <div className="option__balance">
-                        <img src="" alt="" />
-                        <p>Баланс</p>
+                        <div className="option__left">
+                            <img className='profile__image' src="" alt="" />
+                            <p>Баланс</p>
+                        </div>
+
                         <div className="option__balance-block">
-                            <p>1 TON</p>
-                            <img src="" alt="" />
+                            <p className='tonPrice'>1 TON</p>
+                            <img className='Dymond' src={Dimond} alt="" />
                             <div className="option__money">
                                 <p>~</p>
-                                <p>250</p>
-                                <img src="" alt="" />
+                                <p>250₽</p>
+
                             </div>
                         </div>
-                        <img src="" alt="" />
+                        <img className='arrowRight' src={ArrowRight} alt="" />
                     </div>
                     <div className="option">
-                        <img src="" alt="" />
-                        <p>Тарифы</p>
-                        <img src="" alt="" />
+                        <div className="option__left">
+                            <img src="" alt="" />
+                            <p>Тарифы</p>
+                        </div>
+                        <img src={ArrowRight} alt="" />
                     </div>
                     <div className="option">
-                        <img src="" alt="" />
-                        <p>Тарифы</p>
-                        <img src="" alt="" />
+                        <div className="option__left">
+                            <img src="" alt="" />
+                            <p>Тарифы</p>
+                        </div>
+                        <img src={ArrowRight} alt="" />
                     </div>
                     <div className="option">
-                        <img src="" alt="" />
-                        <p>Тарифы</p>
-                        <img src="" alt="" />
+                        <div className="option__left">
+                            <img src="" alt="" />
+                            <p>Тарифы</p>
+                        </div>
+                        <img src={ArrowRight} alt="" />
                     </div>
                     <div className="option">
-                        <img src="" alt="" />
-                        <p>Тарифы</p>
-                        <img src="" alt="" />
+                        <div className="option__left">
+                            <img src="" alt="" />
+                            <p>Тарифы</p>
+                        </div>
+                        <img src={ArrowRight} alt="" />
                     </div>
                     <div className="option">
-                        <img src="" alt="" />
-                        <p>Тарифы</p>
-                        <img src="" alt="" />
+                        <div className="option__left">
+                            <img src="" alt="" />
+                            <p>Тарифы</p>
+                        </div>
+                        <img src={ArrowRight} alt="" />
                     </div>
-
                 </div>
                 <div className="profile__about-me">
                     <p>О себе</p>
@@ -58,9 +70,9 @@ const Profile = () => {
                     <p>пока нет выполненых работ</p>
                 </div>
                 <div className="profile__veryfication">
-                    <p>Верификация</p>
+                    <p className='veryfication'>Верификация</p>
                     <div className="veryfication__block">
-                        <img src="" alt="" />
+                        <img className='veryfication__image' src="" alt="" />
                         <div className="veryfication__block-text">
                             <p>Пройти KYC верификацию</p>
                             <p>Подтвердите свою личность

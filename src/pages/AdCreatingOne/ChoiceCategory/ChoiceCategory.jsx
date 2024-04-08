@@ -11,12 +11,7 @@ const ChoiceCategory = ({
 }) => {
   const [inputValue, setInputValue] = useState("");
   const [categoriesArr, setCategoriesArr] = useState([
-    { name: "Дизайн 1", icon: "Palitra.png", value: "design1", key: 1 },
-    { name: "Дизайн 2", icon: "Palitra.png", value: "design2", key: 2 },
-    { name: "Дизайн 3", icon: "Palitra.png", value: "design3", key: 3 },
-    { name: "Дизайн 4", icon: "Palitra.png", value: "design4", key: 4 },
-    { name: "Дизайн 5", icon: "Palitra.png", value: "design5", key: 5 },
-    { name: "Дизайн 6", icon: "Palitra.png", value: "design6", key: 6 },
+    { name: "Дизайн", icon: "Palitra.png", value: "design1", key: 1 }
   ]);
   return (
     <div className={cl.ChoiceCategory}>
@@ -41,6 +36,7 @@ const ChoiceCategory = ({
           );
         })}
       </div>
+      <p className={cl.anotherText}>Прочие категории скоро появятся...</p>
     </div>
   );
 };

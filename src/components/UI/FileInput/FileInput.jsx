@@ -14,11 +14,13 @@ const FileInput = ({className}) => {
                                 {images.map( (e) => {
                     return(
                         <div className={cl.imageFeetContainer}>
-                            <img onClick={() => {
+
+                            <div  onClick={() => {
                                 setFiles([...files].filter(obj => {
                                     return (files.indexOf(obj) !== images.indexOf(e)) }  ))
                                 setImages([...images].filter((m) => m!=e)) 
-                                }} src={trash} alt="" className={cl.removeIcon} />
+                                }}   className={[cl.removeIcon , '_icon-trash'].join(' ')} />
+                                
                             <img   className={cl.imageFeet} src = {e}  alt="" />
                         </div>
                     )
