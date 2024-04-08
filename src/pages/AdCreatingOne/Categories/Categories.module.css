@@ -43,8 +43,8 @@
     display: block;
     object-fit: cover;
     background-size: cover;
-    width: calc(28px * 0.35);
-    height: calc(33px * 0.35);
+    width: calc(28px * 0.43);
+    height: calc(33px * 0.43);
     margin-top: 1px;
 }
 
