@@ -6,7 +6,7 @@ const Categories = ({className , taskInformation, setCatagoryChoiceOpen , setSub
         <div className = { className ? [cl.Categories , className].join(' ') : cl.Categories   }>
             <div className={cl.Categories__block}>
                 <p>Категория</p>
-                <p c onClick={(e) => {setCatagoryChoiceOpen(true)}} className = {cl.Category__link} href="">{taskInformation.category['name']}</p>
+                <p  onClick={(e) => {setCatagoryChoiceOpen(true)}} className = {cl.Category__link} href="">{taskInformation.category['name']}</p>
             </div>
             <hr className={cl.line} />
             <div className={cl.Categories__block}>
