@@ -29,7 +29,7 @@ const AdCreatingOne = ( {taskInformation ,setTaskInformation }) => {
       <CSSTransition classNames={'modal'}
       in = {isCategoryChoiceOpen}
       
-      timeout={200}
+      timeout={0}
       mountOnEnter
       unmountOnExit
        >
@@ -38,7 +38,7 @@ const AdCreatingOne = ( {taskInformation ,setTaskInformation }) => {
       
       <CSSTransition classNames={'modal-two'}
           in = {isSubcategoryChoiceOpen}
-          timeout={200}
+          timeout={0}
           unmountOnExit
           mountOnEnter
           >

@@ -45,6 +45,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 8px;
     flex-wrap: wrap;
+    margin-top: 3px;
 }
 .FileInput p {
     color: rgb(218, 245, 254);
