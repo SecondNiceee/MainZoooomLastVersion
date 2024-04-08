@@ -38,8 +38,8 @@
 
  }
 .FileInput{
-    padding: calc(36px * .367) calc(50px * 0.32);
-    border-radius:calc(30px * 0.32) ;
+   padding: calc(30px* .32) calc(30px* 0.32);
+    border-radius:calc(28px * 0.32) ;
     background: rgb(32, 48, 63);
     cursor: pointer;
     display: grid;
@@ -74,4 +74,7 @@
  }
  .imageFeetContainer{
     position: relative;
- }
+    height: fit-content;
+    line-height: 0;
+}
+ 
