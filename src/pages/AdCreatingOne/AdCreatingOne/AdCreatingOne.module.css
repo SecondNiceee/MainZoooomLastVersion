@@ -29,7 +29,7 @@
 .CapText{
     color: rgb(255, 255, 255);
     font-family: "SF Pro Display 600";
-    font-size: calc(53px * 0.325 / 1.04) ;
+    font-size: calc(55px * 0.325 / 1.04) ;
     font-weight: 600;
     line-height: normal;
     letter-spacing: 0%;

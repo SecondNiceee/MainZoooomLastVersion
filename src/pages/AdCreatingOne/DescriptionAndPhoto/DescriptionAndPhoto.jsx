@@ -27,7 +27,7 @@ const DescriptionAndPhoto = ({
           setValue = {   (e) =>   { setTaskInformation( { ...taskInformation ,taskDescription : e} ) } } 
         ></TextArea>
       </div>
-      <FileInput />
+      <FileInput className={cl.FileInput} />
     </div>
   );
 };

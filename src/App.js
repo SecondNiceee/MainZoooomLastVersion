@@ -20,6 +20,7 @@ import AdCreatingOne from "./pages/AdCreatingOne/AdCreatingOne/AdCreatingOne";
 import AdCreatingThree from "./pages/AdCreatingThree/AdCreatingThree";
 import FirstMenu from "./pages/FirstMenu/FirstMenu";
 import { useTon } from "./hooks/useTon";
+import Profile from "./pages/Profile/Profile";
 
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
 window.Telegram.WebApp.expand()
@@ -101,7 +102,10 @@ function App() {
           {/* <FirstMenu menuRef = {menuRef} isMenuActive={isMenuActive} setMenuActive={setMenuActive}  />
           <First setMenuActive={setMenuActive } isMenuActive={isMenuActive} /> */}
 
+
+
           <AdCreatingOne taskInformation={taskInformation} setTaskInformation={setTaskInformation} />
+          {/* <Profile /> */}
         </div>
       );
 }
