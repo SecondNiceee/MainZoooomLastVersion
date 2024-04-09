@@ -10,7 +10,7 @@ const FileInput = ({className}) => {
     return (
 
 
-            <div style={images.length === 0 ? {display:'flex'} : {} } className={className ? [cl.FileInput, className].join(' ') : cl.FileInput }>
+            <div style={images.length === 0 ? {display:'flex'} : {} } className={className ? [  cl.FileInput, className].join(' ') : cl.FileInput }>
                                 {images.map( (e) => {
                     return(
                         <div className={cl.imageFeetContainer}>
