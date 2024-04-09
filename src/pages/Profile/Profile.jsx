@@ -48,28 +48,28 @@ const Profile = () => {
                     <div className="option">
                         <div className="option__left">
                         <img src={orangeWallet} className='orangeWallet' alt="" />
-                            <p>Тарифы</p>
+                            <p>Уведомления</p>
                         </div>
                         <img className='arrowRight' src={ArrowRight} alt="" />
                     </div>
                     <div className="option">
                         <div className="option__left">
                         <img src={orangeWallet} className='orangeWallet' alt="" />
-                            <p>Тарифы</p>
+                            <p>О себе и примеры работ</p>
                         </div>
                         <img className='arrowRight' src={ArrowRight} alt="" />
                     </div>
                     <div className="option">
                         <div className="option__left">
                         <img src={orangeWallet} className='orangeWallet' alt="" />
-                            <p>Тарифы</p>
+                            <p>Подписка за задания</p>
                         </div>
                         <img className='arrowRight' src={ArrowRight} alt="" />
                     </div>
                     <div className="option">
                         <div className="option__left">
                         <img src={orangeWallet} className='orangeWallet' alt="" />
-                            <p>Тарифы</p>
+                            <p>Шаблоны откликов</p>
                         </div>
                         <img className='arrowRight' src={ArrowRight} alt="" />
                     </div>

@@ -24,7 +24,7 @@ input {
         text-align: left;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 5px;
+        margin-top: 10px;
         text-align: center;
         height: 20px;
     }
@@ -54,7 +54,7 @@ input {
     .profile__options{
         display: flex;
         flex-direction: column;
-        margin-top: calc(84px * $width);
+        margin-top: calc(25px);
         border-radius: calc(30px * $width);
 
 
@@ -213,7 +213,7 @@ input {
             font-family: "SF Pro Display 600";
             font-size: calc(62.16px * $width);
             font-weight: 600;
-            line-height: normal;
+            line-height: 22px;
             letter-spacing: 0%;
             text-align: left;
         }

@@ -1033,7 +1033,7 @@ input {
   text-align: left;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5px;
+  margin-top: 10px;
   text-align: center;
   height: 20px;
 }
@@ -1073,7 +1073,7 @@ input {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-top: 26.88px;
+  margin-top: 25px;
   border-radius: 9.6px;
 }
 .profile__container .option__balance {
@@ -1265,7 +1265,7 @@ input {
   font-family: "SF Pro Display 600";
   font-size: 19.8912px;
   font-weight: 600;
-  line-height: normal;
+  line-height: 22px;
   letter-spacing: 0%;
   text-align: left;
 }
