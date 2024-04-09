@@ -1180,7 +1180,7 @@ input {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 3.84px;
+  gap: 0px;
   margin-top: 25px;
   margin-left: 10px;
 }
@@ -1227,7 +1227,7 @@ input {
   line-height: normal;
   letter-spacing: 0%;
   text-align: left;
-  margin-bottom: 6.4px;
+  margin-bottom: 2px;
 }
 .profile__container .profile__works p:nth-child(2) {
   color: rgb(218, 245, 254);
@@ -1252,7 +1252,7 @@ input {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 21.44px;
-  gap: 10px;
+  gap: 5px;
   margin-top: 25px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;

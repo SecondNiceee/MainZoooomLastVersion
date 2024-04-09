@@ -104,8 +104,8 @@ function App() {
 
 
 
-          <AdCreatingOne taskInformation={taskInformation} setTaskInformation={setTaskInformation} />
-          {/* <Profile /> */}
+          {/* <AdCreatingOne taskInformation={taskInformation} setTaskInformation={setTaskInformation} /> */}
+          <Profile />
         </div>
       );
 }
