@@ -31,3 +31,18 @@
     font-family: "Sf Compact Rounded";
     src: url('../assets/Sf\ Compact\ Rounded/sf-compact-rounded.ttf');
 }
+@font-face{
+    font-family: "SF Pro Text 600";
+    src: url('../assets//San\ Francisco\ Pro\ Text/SFProText-Semibold.ttf ');
+    font-family: 600;
+}
+@font-face{
+    font-family: "SF Pro Text 400";
+    src: url('../assets//San\ Francisco\ Pro\ Text/SFProText-Regular.ttf ');
+    font-family: 400;
+}
+@font-face{
+    font-family: "SF Pro Text";
+    src: url('../assets//San\ Francisco\ Pro\ Text/SFProText-Medium.ttf ');
+    font-weight: 500;
+}
